@@ -10728,7 +10728,7 @@ if World2 then
  
  Misc:Seperator(" Joins ")
  
- Misc:Button("Join Pirates Team",function()
+ Misc:Button("Join Pirates Team",true,function()
  		local args = {
 			[1] = "SetTeam",
 			[2] = "Pirates"
